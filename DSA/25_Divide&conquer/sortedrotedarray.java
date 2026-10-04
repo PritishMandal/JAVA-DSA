@@ -32,3 +32,4 @@ public class sortedrotedarray {
        System.out.println(tarIdx);
    }
 }
+// complete revision java basic to divide and conquer with code in Practice files
