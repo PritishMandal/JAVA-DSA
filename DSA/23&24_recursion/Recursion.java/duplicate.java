@@ -11,7 +11,7 @@ public class duplicate {
            removeDuplicate(str, idx + 1, newStr, map);
        } else {
            map[currchar - 'a'] = true;
-           removeDuplicate(str, idx + 1, newStr.append(currchar), map);
+           removeDuplicate(str, idx + 1, newStr.append(currchar), map);//ye line newStr me currchar add kar rahi hai
        }
    }
 
