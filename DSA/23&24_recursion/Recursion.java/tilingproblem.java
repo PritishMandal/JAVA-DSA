@@ -10,6 +10,6 @@ public class tilingproblem {
         return totways;
     }
     public static void main(String[] args) {
-        System.out.print(TilingProblem(3));
+        System.out.print(TilingProblem(4));
     }
 }
