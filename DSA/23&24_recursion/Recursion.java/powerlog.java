@@ -3,10 +3,10 @@ public class powerlog{
         if(n == 0){
             return 1;
         }
-        int halfpower = optimizedpower(a, n/2);
+        int halfpower = optimizedpower(a, n/2);// ye line recursion call kar rahi hai, aur halfpower me a ka n/2 power store kar rahi hai
         int halfpowersq=halfpower*halfpower;
         if(n % 2 !=0){
-            halfpowersq=a*halfpowersq;
+            halfpowersq=a*halfpowersq;// ye line odd power ko calculate kar rahi hai
         }
         return halfpowersq;
         
