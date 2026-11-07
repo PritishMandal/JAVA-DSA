@@ -1,6 +1,6 @@
 public class Fibonaccinumber {
     public static int fib (int n ) {
-        if( n == 0 || n ==1){
+        if( n == 0 || n ==1){ // ye line base case hai, jab n 0 ya 1 ho jaye toh hum n return kar denge
             return n;
 
         }
@@ -11,7 +11,7 @@ public class Fibonaccinumber {
         
     }
     public static void main(String[] args) {
-        int n = 25;
+        int n = 20;
         System.out.println(fib(n));
     }
 }
